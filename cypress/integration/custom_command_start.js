@@ -4,10 +4,7 @@ beforeEach(() => {
   cy.request('POST', '/api/reset')
 })
 
-it('Custom commands', () => {
-
-  cy
-    .visit('/');
+Cypress.Commands.add('addBoard', (input) => {
 
   cy
     .get('[data-cy="create-board"]')
@@ -15,6 +12,14 @@ it('Custom commands', () => {
 
   cy
     .get('[data-cy=new-board-input]')
-    .type('new board{enter}');
+    .type(input+'{enter}');
 
-});
+})
+
+it('Custom commands',()=>{
+  cy
+  .visit('/')
+
+  cy
+  .addBoard('groceries')
+})

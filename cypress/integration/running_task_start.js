@@ -3,7 +3,7 @@
 it('Running tast', () => {
 
   cy
-    .request('POST', '/api/reset')
+    .task()
 
   cy
     .visit('/')

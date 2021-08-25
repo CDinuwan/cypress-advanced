@@ -1,20 +1,14 @@
 {
   "boards": [
     {
-      "name": "new board",
+      "name": "groceries",
       "user": 0,
-      "id": 65547956164,
+      "id": 89992103115,
       "starred": false,
-      "created": "2021-08-24"
+      "created": "2021-08-25"
     }
   ],
   "tasks": [],
-  "users": [
-    {
-      "email": "example@wiley.com",
-      "password": "$2a$10$WqkkL8OHJfhB5sjRH5ZpI.UPyjIeu9VnFIr/gb/UnInzd7AoNQmBa",
-      "id": 1
-    }
-  ],
+  "users": [],
   "lists": []
 }
