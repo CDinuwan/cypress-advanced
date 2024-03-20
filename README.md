@@ -1,7 +1,7 @@
 Hello there 👋
 
 ## Instalation
-`git clone https://github.com/filiphric/cypress-tau-course.git`
+`[git clone https://github.com/filiphric/cypress-tau-course.git](https://github.com/CDinuwan/cypress-advanced.git)`
 
 `npm install`
 
